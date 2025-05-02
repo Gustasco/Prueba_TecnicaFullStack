@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 export default function LogOut() {
     // Se crea una instancia del hook useNavigate para manejar la navegación
     const navigate = useNavigate();

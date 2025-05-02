@@ -1,0 +1,19 @@
+# Ignorar el entorno virtual de Python
+venv/
+__pycache__/
+
+# Ignorar el archivo .env (importante para mantener información sensible)
+.env
+
+# Ignorar node_modules del frontend
+frontend/node_modules/
+
+# Ignorar los logs de Django
+*.log
+
+# Ignorar archivos de compilación de Django
+*.sqlite3
+*.pyc
+
+# Ignorar las carpetas de compilación de frontend (ej. en React)
+frontend/build/
